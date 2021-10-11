@@ -1,0 +1,102 @@
+
+/* header */
+
+/* Icon*/
+
+.fa{
+	color: #1961b2;
+}
+
+/*navbar*/
+
+.navbar-brand{
+	
+	font-family: 'Courgette', cursive;
+	font-size: 35px;
+
+
+}
+
+
+/* jumbotron */
+.jumbotron1 {
+
+	background: url(../img/raja2.jpg);
+	background-size: cover;
+	height: 400px;
+
+	margin-top: auto;
+}
+
+.jumbotron h1{
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+
+}
+
+/* panel */
+.panel{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	margin-top: -70px;
+}
+
+
+/* utility*/
+.form-control {
+
+}
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+
+
+/* Tombol */
+
+.tombol{
+	background-color:  	#1961b2;
+	width: 230px;
+	
+}
+
+/* navbar*/
+
+.nav-link{
+	font-family: 'Anton', cursive;
+	font-size: 16px;
+	margin-right: 10px;
+	
+
+}
+.nav-item:hover::after {
+	content: '';
+	display: block; 
+	border-bottom: 3px solid blue;
+	margin-bottom: -3px;
+
+}
+/* jumbotron */
+.jumbotron h1{
+	font-family: 'Lobster', cursive;
+	font-size: 100px;
+
+}
+
+/* panel */
+.panel {
+	padding-top: 13px;
+	height: 130px;
+	padding-left: 33px;
+}
+
+
+
+
+
+
+
+
+
+}
